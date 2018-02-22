@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8d498e743191b41820be20d4bfba8e, type: 3}
+  m_Name: LoginDataBase
+  m_EditorClassIdentifier: 
+  PhpHostPath: http://192.168.0.132/unity/
+  SecretKey: 123456
+  Admin: Admin
+  OnLoginLoadLevel: Preparation
+  LoginPhp: bl_Login
+  RegisterPhp: bl_Register
+  SaveInfoPhp: bl_SaveInfo
+  RankingPhp: bl_GetTop
+  GetIpPhp: bl_GetIP
+  BanListPhp: bl_BanList
+  BanPhp: bl_Ban
+  RequestUserPhp: bl_RequestUser
+  FunctionsPhp: Functions
+  UpdateIP: 1
+  GetIpOnAwake: 1
+  DetectBan: 1
